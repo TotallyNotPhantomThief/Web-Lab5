@@ -1,3 +1,4 @@
+import { Product } from "./Product";
 const data = [
   { id: 1, title: "Laptop", price: 1200 },
   { id: 2, title: "Phone", price: 800 },
