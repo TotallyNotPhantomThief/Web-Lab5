@@ -13,11 +13,11 @@ export function App(){
   <input
    type ="text"
    placeholder="Enter your name"  
-   
-
-
-
-
-   </div>
+   value={name}
+   onChange={(nameChange) => setName(nameChange.target.value)}
+  />
+  <p>Hello,{name}</p>
+  {showProducts && <ProductList/>}
+  </div>
  );
 }
