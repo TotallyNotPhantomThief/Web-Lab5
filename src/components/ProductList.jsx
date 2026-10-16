@@ -4,15 +4,6 @@ const data = [
   { id: 3, title: "Tablet", price: 600 }
 ];
 
-function Product({title,price}){
-return (
-   <div className="prodcut">
-   <h2>{title}</h2>
-   <p>{price}</p>
-   </div>
-);
-}
-
 export function ProductList(){
 return(
 <div>
