@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { ProductList } from './components/ProductList'
-export function App(){
+export  default function App(){
  const [showProducts, setShowProducts] = useState(true);
  const [name, setName] =useState("");
  return (
